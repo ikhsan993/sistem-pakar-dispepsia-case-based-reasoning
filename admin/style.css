@@ -1,0 +1,210 @@
+/* BODY ======================================================================== */
+body{
+	font-family:Arial;
+	padding-left:0%;
+	padding-right:0%;
+	padding-top:10px;
+	
+}
+
+/* ISI =========================================================================== */
+.container1{ background-color:#FFFFFF; }
+.container2{ background-color:#FFFFFF; }
+
+
+.grid{
+	width:100%;
+	padding-top:0px;
+	padding-bottom:0px;
+	overflow:hidden;
+}
+.grid img {width: 100%;
+			height: 230px;}
+
+.dh1{ width:6.25%; }
+.dh2{ width:14.58%; }
+.dh3{ width:22.91%; }
+.dh4{ width:31.25%; }
+.dh5{ width:39.58%; }
+.dh6{ width:47.91%; }
+.dh7{ width:56.25%; }
+.dh8{ width:64.58%; }
+.dh9{ width:72.91%; }
+.dh10{ width:81.25%; }
+.dh11{ width:89.58%; }
+.dh12{ width:97.91%; }
+
+.dh1, .dh2, .dh3, .dh4, .dh5, .dh6, .dh7, .dh8, .dh9, .dh10, .dh11, .dh12{
+	float:left;
+	display:inline;
+	margin:0 1.04%;
+}
+
+@media screen and (max-width: 720px) {
+ .dh1, .dh2, .dh3, .dh4, .dh5, .dh6, .dh7, .dh8, .dh9, .dh10, .dh11, .dh12{
+   width: 97.91666666666666%;
+   margin-bottom: 1em;
+ }
+}
+
+#login{
+	max-width:350px;
+	margin:100px auto;
+	position:relative;
+	display:block;
+	background-color:#FFFFFF;
+	box-shadow: 0 0 5px #aaa;
+}
+
+#kat{
+	max-width:75%;
+	margin:10px auto;
+	position:relative;
+	display:block;
+	background-color:#FFFFFF;
+	box-shadow: 0 0 5px #aaa;
+}
+
+#login h3{
+	text-align:center;
+	color:#FFFFFF;
+	font-size:30px;
+	padding:25px 10px;
+	background-color:#006633;
+}
+
+fieldset{
+	margin:10px;
+	border:none;
+}
+
+form{
+	margin:0;
+	padding:0;
+}
+
+input[type="text"],
+input[type="password"],
+input[type="file"],
+select,
+textarea{
+	width:95%;
+	padding:0.8em;
+	margin-top:1em;
+	font-family:Arial;
+	font-size:14px;
+	border:1px solid #999999;
+	border-radius:4px;
+	background-color:#F3F3F;
+}
+
+input[type="submit"]{
+	width:100%;
+	margin-top:0.9em;
+	color:#FFF;
+	background-color:#008442;
+	padding:0.8em;
+	font-family:Arial;
+	font-size:14px;
+	text-align:center;
+	cursor:pointer;
+	border:1px solid #999999;
+	border-radius:4px;
+}
+
+/* HEADER ====================================================================== */
+
+.nav{
+	font-size:18px;
+	color:#fff;
+	background-color:#00844;
+	padding:12px 20px 12px 20px;
+}
+
+.isiadmin{	
+	font-size:18px;
+	color:#333333;
+	background-color:#EBEBEB;
+	padding:12px 20px 12px 20px;
+}
+
+a{ color:#008442; text-decoration:none;}
+a:hover{ color:#333333;}
+
+/* MENU ====================================================================== */
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #084d10;
+}
+
+li {
+    float: left;
+	
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #111;
+	color:#FFFFFF;
+}
+
+
+
+#view{
+	max-width:100%;
+	margin:10px auto;
+	position:relative;
+	display:block;
+	background-color:#FFFFFF;
+	box-shadow: 0 0 5px #aaa;
+}
+
+table{
+	width:100%;
+}
+th{
+	text-align:center;
+	padding:10px;
+	background-color:#008442;
+	color:#FFFFFF;
+	font-family:Arial;
+	font-size:14px;
+}
+td{
+	padding:10px;
+	background-color:#FFFFFF;
+	font-size:14px;
+		
+}
+
+.btn{
+	font-family:Arial;
+	font-size:14px;
+	padding:9px 9px;
+	text-align:center;
+	cursor:pointer;
+	border:1px solid transparent;
+	border-radius:8px;
+}
+
+.btn-more{ 
+	color:#FFFFFF; 
+	background-color:#008A45;
+	border-color:#00E171;
+}
+
+.btn-more:hover{ 
+	color:#FFFFFF; 
+	background-color:#00E171;
+	border-color:#00E171;
+}
